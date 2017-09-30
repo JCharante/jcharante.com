@@ -27,6 +27,10 @@
                 <a href="http://webchat.freenode.net/?channels=##esperanto">freenode's ##esperanto</a> engaging in small
                 talk.
             </p>
+            <p>
+                My laptop actually has Esperanto as the system language, and it does help keep me immersed, especially
+                when working on projects written entirely in Esperanto.
+            </p> <!-- TODO: Link to baterio project page -->
             <p class="strong">Italian</p>
             <p>
                 I started learning
