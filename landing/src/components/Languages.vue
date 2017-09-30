@@ -36,8 +36,9 @@
             <p>
                 I'm currently learning it from Spanish, as they're both
                 <a href="https://simple.wikipedia.org/wiki/Romance_languages">Romance languages</a>, but Esperanto has
-                really helped with words such as <em>[Io] mangiano</em> (<em>[I] eat</em> in English) which would be
-                <em>[Yo] como</em> in Spanish, but <em>[Mi] manĝas</em> in Esperanto.
+                really helped with words such as <span class="token">[Io] mangiano</span>
+                (<span class="token">[I] eat</span> in English) which would be <span class="token">[Yo] como</span> in
+                Spanish, but <span class="token">[Mi] manĝas</span> in Esperanto.
             </p>
             <p class="strong">French</p>
             <p>
