@@ -11,7 +11,7 @@
             <q-side-link item to="/projects" exact>
                 <q-item>
                     <q-item-side icon="work" />
-                    <q-item-main label="Projects" sublabel="They're a good way to spend time"/>
+                    <q-item-main label="Projects" sublabel="A good way to spend time"/>
                 </q-item>
             </q-side-link>
             <q-side-link item to="/languages" exact>
