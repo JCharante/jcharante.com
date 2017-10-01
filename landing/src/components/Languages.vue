@@ -42,7 +42,7 @@
                 <a href="https://simple.wikipedia.org/wiki/Romance_languages">Romance languages</a>, but Esperanto has
                 really helped with words such as <span class="token">[Io] mangiano</span>
                 (<span class="token">[I] eat</span> in English) which would be <span class="token">[Yo] como</span> in
-                Spanish, but <span class="token">[Mi] manĝas</span> in Esperanto. (I must admin that
+                Spanish, but <span class="token">[Mi] manĝas</span> in Esperanto. (I must admit that
                 <span class="token">[Je] mange</span> from French helps a bit.)
             </p>
             <p class="strong">French</p>
