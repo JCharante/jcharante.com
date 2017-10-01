@@ -12,6 +12,9 @@
 
         <div class="layout-padding">
             <p>I'll add something here eventually.</p>
+            <p>
+                For now you can just look at <a href="https://github.com/JCharante">my Github profile</a>
+            </p>
         </div>
     </q-layout>
 </template>
