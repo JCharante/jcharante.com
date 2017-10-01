@@ -46,7 +46,7 @@
                 Terrible first impression with the company, but hopefully the alarm clock feature makes up for it.
             </p>
             <p>
-                I also wonder if I can hug people in order to shock them with me.
+                I also wonder: Can I hug people in order to shock them?
             </p>
         </div>
     </q-layout>
