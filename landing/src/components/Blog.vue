@@ -16,6 +16,9 @@
         <div class="layout-padding">
             <ul>
                 <li>
+                    <router-link to="blog/haulers-channel-reward-calc">haulers-channel-reward-calc - Sun Oct 1 '17</router-link>
+                </li>
+                <li>
                     <router-link to="blog/Pavlok">Pavlok - Sun Oct 1 '17</router-link>
                 </li>
             </ul>

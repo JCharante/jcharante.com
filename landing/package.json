@@ -15,6 +15,7 @@
     "quasar-extras": "0.x",
     "quasar-framework": "^0.14.1",
     "vue": "~2.3.4",
+    "vue-github-buttons": "^2.0.5",
     "vue-router": "^2.7.0"
   },
   "devDependencies": {
