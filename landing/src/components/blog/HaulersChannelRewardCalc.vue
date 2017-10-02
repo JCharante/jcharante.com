@@ -19,11 +19,17 @@
                 I guess I should talk about
                 <a href="https://github.com/JCharante/haulers-channel-reward-calc">
                     JCharante/haulers-channel-reward-calc
-                </a>, what I consider to be my most popular repository on Github, because it's been forked and improved
+                </a>, what I consider to be my most successful repository on Github, because it's been forked and improved
                 on by complete strangers.
             </p>
-            <gh-btns-fork slug="JCharante/haulers-channel-reward-calc" show-count></gh-btns-fork>
-            <p style="visibility: hidden">fork count of my repo</p>
+            <div class="row justify-center">
+                <p style="visibility: hidden;">.</p>
+                <gh-btns-fork slug="JCharante/haulers-channel-reward-calc" show-count></gh-btns-fork>
+                <p style="visibility: hidden;">.</p>
+            </div>
+            <div class="row justify-center">
+                <p class="caption">I know it's not a lot, but it's all I have!</p>
+            </div>
             <p>
                 It first started out in <a href="https://en.wikipedia.org/wiki/Eve_Online">Eve Online</a>. I don't want
                 to get too deep into it, but there's a community in the game called Hauler's Channel, created by
@@ -101,7 +107,7 @@
                 <a href="https://github.com/JCharante/haulers-channel-reward-calc/pull/4">beat me to it!</a>
             </p>
             <p>
-                And even though it was just one person, I felt like I was 6 again, playing
+                And even though it was just one person, I felt like I was a kid again, playing
                 <a href="https://en.wikipedia.org/wiki/Empire_Earth_II">Empire Earth II</a>, ordering my
                 troops around. I was at the top of the world; It felt great. I think that may have been the defining
                 moment, for when I was truly hooked into FOSS.
