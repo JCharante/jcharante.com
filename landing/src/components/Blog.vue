@@ -14,15 +14,19 @@
         <drawer slot="left"/>
 
         <div class="layout-padding">
-            <ul>
-                <li>
-                    <router-link to="blog/haulers-channel-reward-calc">haulers-channel-reward-calc - Sun Oct 1 '17</router-link>
-                </li>
-                <li>
-                    <router-link to="blog/Pavlok">Pavlok - Sun Oct 1 '17</router-link>
-                </li>
-            </ul>
-
+            <div class="row justify-start">
+                <blog-card repo="https://github.com/JCharante/haulers-channel-reward-calc"
+                           title="Story of my most successful repo"
+                           :pictures="['/statics/haulers-channel-reward-calc-e74940a0290e3165f2b6456e7e9f0aa0db66b1c4-ogb.html.png']"
+                           link="blog/haulers-channel-reward-calc"
+                           published="Sun Oct 1 '17"
+                />
+                <blog-card title="Pavlok"
+                           :pictures="['https://cdn.shopify.com/s/files/1/0601/9629/products/square_2x-80.jpg?v=1496424343']"
+                           link="blog/pavlok"
+                           published="Sun Oct 1 '17"
+                />
+            </div>
         </div>
     </q-layout>
 </template>
@@ -43,6 +47,7 @@
     } from 'quasar'
 
     import Drawer from './Drawer.vue'
+    import BlogCard from './BlogCard.vue'
 
     export default {
         name: 'index',
@@ -58,7 +63,8 @@
             QItemSide,
             QItemMain,
             QSideLink,
-            Drawer
+            Drawer,
+            BlogCard
         },
         data () {
             return {}
