@@ -28,22 +28,28 @@
             </p>
             <p>
                 It sounds like a lot of fun, so I ordered the
-                <a href="https://buy.pavlok.com/products/order-a-pavlok-pre-order-pavlok-2">Pavlok 1 & Pavlok 2</a>,
-                since the Pavlok 2 is supposed to ship sometime in October they say that they'll ship you a Pavlok 1
+                <a href="https://buy.pavlok.com/products/order-a-pavlok-pre-order-pavlok-2">Pavlok 1 & Pavlok 2</a>.
+                Since the Pavlok 2 is supposed to ship sometime in October, they say that they'll ship you a Pavlok 1
                 now. I ordered it two weeks ago, but they never shipped the Pavlok 1, which is why I contacted support
-                a week ago. Apparently, soon after I purchased it they got around to putting up a notice that it was
-                back-ordered for 1-2 weeks.
-            </p>
-            <hr>
-            <p>
-                It appears that I actually got an email from Maneesh Sethi yesterday concerning the delayed shipment.
+                a week ago. As it turns out, soon after my purchase they put up a notice stating it was back-ordered for
+                1-2 weeks. They offered a refund, but I really wanted the Pavlok, as negative reinforcement works really
+                well for me.
             </p>
             <p>
-                Looks like they ran out of black wristbands and boxes, so they'll be shipping orders with alternate
-                colored wristbands. I just hope I don't get Pink.
+                Yesterday, on Sat Sep 30, I got an email from Maneesh Sethi (Pavlok's CEO) titled
+                <span class="token">An Apology from the Pavlok CEO</span> concerning the delayed shipment. It looks like
+                they ran out of black wristbands and boxes, so they'll be shipping orders with alternate colored
+                wristbands.
+            </p>
+            <div class="row justify-center">
+                <img src="https://cdn.shopify.com/s/files/1/0601/9629/products/production-unit-order-a-pavlok-wristband-4.jpg?v=1489695489"
+                     class="responsive" style="max-width: 30vw; max-height: 30vh;"/>
+            </div>
+            <p class="caption text-center">
+                I just hope I don't get pink.
             </p>
             <p>
-                Terrible first impression with the company, but hopefully the alarm clock feature makes up for it.
+                A pretty bad first impression with the company, but hopefully the alarm clock feature makes up for it.
             </p>
             <p>
                 I also wonder: Can I hug people in order to shock them?

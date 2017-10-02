@@ -16,7 +16,7 @@
         <div class="layout-padding">
             <div class="row justify-start">
                 <blog-card repo="https://github.com/JCharante/haulers-channel-reward-calc"
-                           title="Story of my most successful repo"
+                           title="The story of my most successful repo"
                            :pictures="['/statics/haulers-channel-reward-calc-e74940a0290e3165f2b6456e7e9f0aa0db66b1c4-ogb.html.png']"
                            link="blog/haulers-channel-reward-calc"
                            published="Sun Oct 1 '17"
