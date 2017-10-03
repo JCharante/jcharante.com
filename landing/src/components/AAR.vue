@@ -15,6 +15,12 @@
 
         <div class="layout-padding">
             <div class="row justify-start">
+                <blog-card repo="https://github.com/JCharante/quit-reddit"
+                           title="Quitting Reddit"
+                           :pictures="['https://static.jcharante.com/aar/quitting-reddit/reddit-logo.png']"
+                           link="aar/quitting-reddit"
+                           published="Tue Oct 3 '17"
+                />
                 <blog-card repo="https://github.com/JCharante/haulers-channel-reward-calc"
                            title="The Story of My Most Successful Repo"
                            :pictures="['/statics/haulers-channel-reward-calc-e74940a0290e3165f2b6456e7e9f0aa0db66b1c4-ogb.html.png']"

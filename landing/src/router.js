@@ -29,6 +29,7 @@ export default new VueRouter({
         { path: '/aar', component: load('AAR') },
         { path: '/aar/pavlok', component: load('aar/Pavlok') },
         { path: '/aar/haulers-channel-reward-calc', component: load('aar/HaulersChannelRewardCalc') },
+        { path: '/aar/quitting-reddit', component: load('aar/QuittingReddit') },
         // Always leave this last one
         { path: '*', component: load('Error404') } // Not found
     ]
