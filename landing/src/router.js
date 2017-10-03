@@ -26,9 +26,9 @@ export default new VueRouter({
         { path: '/contact', component: load('Contact') },
         { path: '/projects', component: load('Projects') },
         { path: '/languages', component: load('Languages') },
-        { path: '/blog', component: load('Blog') },
-        { path: '/blog/pavlok', component: load('blog/Pavlok') },
-        { path: '/blog/haulers-channel-reward-calc', component: load('blog/HaulersChannelRewardCalc') },
+        { path: '/aar', component: load('AAR') },
+        { path: '/aar/pavlok', component: load('aar/Pavlok') },
+        { path: '/aar/haulers-channel-reward-calc', component: load('aar/HaulersChannelRewardCalc') },
         // Always leave this last one
         { path: '*', component: load('Error404') } // Not found
     ]

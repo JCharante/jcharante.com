@@ -10,7 +10,10 @@
                 <q-icon name="arrow_back"/>
             </q-btn>
 
-            <q-toolbar-title>Blog</q-toolbar-title>
+            <q-toolbar-title>
+                Pavlok
+                <div slot="subtitle">After Action Reports</div>
+            </q-toolbar-title>
         </q-toolbar>
 
         <drawer slot="left"/>
@@ -46,7 +49,7 @@
                      class="responsive" style="max-width: 30vw; max-height: 30vh;"/>
             </div>
             <p class="caption text-center">
-                I just hope I don't get pink.
+                I just hope I don't get a pink wristband.
             </p>
             <p>
                 A pretty bad first impression with the company, but hopefully the alarm clock feature makes up for it.

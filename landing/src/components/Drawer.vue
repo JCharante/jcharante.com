@@ -14,10 +14,10 @@
                     <q-item-main label="Projects" sublabel="A good way to spend time"/>
                 </q-item>
             </q-side-link>
-            <q-side-link item to="/blog" exact>
+            <q-side-link item to="/aar" exact>
                 <q-item>
                     <q-item-side icon="chat_bubble" />
-                    <q-item-main label="Blog"/>
+                    <q-item-main label="After Action Reports"/>
                 </q-item>
             </q-side-link>
             <q-side-link item to="/languages" exact>

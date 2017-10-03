@@ -5,13 +5,16 @@
                 <q-icon name="arrow_back"/>
             </q-btn>
 
-            <q-toolbar-title>Blog</q-toolbar-title>
+            <q-toolbar-title>
+                The Story of My Most Successful Repo
+                <div slot="subtitle">After Action Reports</div>
+            </q-toolbar-title>
         </q-toolbar>
 
         <drawer slot="left"/>
 
         <div class="layout-padding">
-            <h4>haulers-channel-reward-calc</h4>
+            <h4>The Story of My Most Successful Repo</h4>
             <p>
                 <small>Sun Oct 1 '17</small>
             </p>
