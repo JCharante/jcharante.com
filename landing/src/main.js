@@ -15,10 +15,13 @@ import Quasar from 'quasar'
 import router from './router'
 import VueGitHubButtons from 'vue-github-buttons'
 import 'vue-github-buttons/dist/vue-github-buttons.css'
+import VuePrism from 'vue-prism'
+import 'prismjs/themes/prism.css'
 
 Vue.config.productionTip = false
 Vue.use(VueGitHubButtons)
 Vue.use(Quasar) // Install Quasar Framework
+Vue.use(VuePrism)
 
 if (__THEME === 'mat') {
     require('quasar-extras/roboto-font')
