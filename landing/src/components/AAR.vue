@@ -15,6 +15,12 @@
 
         <div class="layout-padding">
             <div class="row justify-start">
+                <blog-card repo="https://github.com/JCharante/ivr"
+                           title="National Yee Emergency Hotline"
+                           :pictures="['https://static.jcharante.com/aar/national-yee-emergency-hotline/yee-animated.gif']"
+                           link="aar/national-yee-emergency-hotline"
+                           published="Wed Oct 4 '17"
+                />
                 <blog-card repo="https://github.com/JCharante/quit-reddit"
                            title="Quitting Reddit"
                            :pictures="['https://static.jcharante.com/aar/quitting-reddit/reddit-logo.png']"

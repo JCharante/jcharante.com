@@ -30,6 +30,7 @@ export default new VueRouter({
         { path: '/aar/pavlok', component: load('aar/Pavlok') },
         { path: '/aar/haulers-channel-reward-calc', component: load('aar/HaulersChannelRewardCalc') },
         { path: '/aar/quitting-reddit', component: load('aar/QuittingReddit') },
+        { path: '/aar/national-yee-emergency-hotline', component: load('aar/NationalYeeEmergencyHotline') },
         // Always leave this last one
         { path: '*', component: load('Error404') } // Not found
     ]
