@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import { AddressbarColor } from 'quasar'
+AddressbarColor.set('#900C3F')
+
 Vue.use(VueRouter)
 
 function load (component) {
