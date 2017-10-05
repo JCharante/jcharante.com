@@ -85,6 +85,16 @@
                 <pre>
                     <code class="language-xml">{{ code3 }}</code>
                 </pre>
+                <h3 class="text-primary">Results</h3>
+                <div class="row justify-center" style="width: 100%; margin-top: 50px; margin-bottom: 30px;">
+                    <audio controls style="width: 80%;">
+                        <source src="https://static.jcharante.com/aar/national-yee-emergency-hotline/call-compilation.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p class="caption">
+                        Twilio can split the caller's voice into the left channel, and yours onto the right.
+                    </p>
+                </div>
                 <p>
                     So that's most of it, it was a good use of a night, and I definitely can't wait to integrate Twilio
                     with my Pavlok. You can explore the repo at
