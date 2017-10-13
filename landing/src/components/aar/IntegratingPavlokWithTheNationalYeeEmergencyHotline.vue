@@ -193,7 +193,7 @@
     </q-layout>
 </template>
 
-<style lang="stylus">
+<style scoped lang="stylus">
     @import '~variables'
 
     .router-link-active
