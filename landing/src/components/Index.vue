@@ -10,7 +10,7 @@
 
         <drawer slot="left"/>
 
-        <div class="layout-padding">
+        <div class="layout-padding" style="max-width: 90vw; width: 800px;">
             <p>Hey, I'm John.</p>
             <p>
                 I'm a software developer who favors Vue over React.
