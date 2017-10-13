@@ -12,8 +12,22 @@
 
         <div class="layout-padding">
             <p>Hey, I'm John.</p>
-            <p>If you'd like to, you can navigate using the pretty self explanatory side nav on the left.</p>
-            <p>I can't think of anything to put here, but once I do, I'm sure it'll be pretty great.</p>
+            <p>
+                I'm a software developer who favors Vue over React.
+            </p>
+            <p>
+                I main Ubuntu but I dual boot Windows on my Desktop in order to play video games.
+            </p>
+            <p>
+                I learned of Aaron Swartz posthumously (unfortunately), but I still learn from
+                <a href="http://www.aaronsw.com/weblog/">his lessons</a>.
+            </p>
+            <p>
+                I love romance languages, and am currently learning Esperanto & Italian.
+            </p>
+            <p>
+                I'm also pretty terrible at being vegan so most of the time I eat vegetarian.
+            </p>
         </div>
     </q-layout>
 </template>
