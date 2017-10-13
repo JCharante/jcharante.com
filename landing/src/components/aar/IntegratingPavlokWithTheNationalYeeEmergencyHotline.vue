@@ -35,158 +35,156 @@
             </q-list>
         </div>
 
-        <div class="layout-padding">
-            <div class="row justify-start">
-                <div style="max-width: 90vw; width: 800px;">
-                    <h4 style="width: 100%">Integrating Pavlok with the National Yee Emergency Hotline</h4>
+        <div class="layout-padding" style="max-width: 90vw; width: 800px;">
+            <div>
+                <h4>Integrating Pavlok with the National Yee Emergency Hotline</h4>
+                <p>
+                    <small>Thu Oct 12 '17</small>
+                </p>
+            </div>
+            <div class="container" v-scroll-spy="scrollPos">
+                <div>
+                    <h3>Introduction</h3>
                     <p>
-                        <small>Thu Oct 12 '17</small>
+                        Yesterday, my Pavlok 1 finally arrived. I began to test it out, and decided to start the Everyman
+                        sleep cycle. So far I failed by not taking my second nap, but I'll elaborate in another AAR.
+                    </p>
+                    <p>
+                        The Pavlok 1 has a
+                        <a href="http://pavlok-mvp.herokuapp.com/docs/index.html">well documented api</a>, which is expected
+                        since it's current version (0.0.1) only has 4 endpoints. Currently
+                        <a href="https://github.com/Behavioral-Technology-Group/Pavlok_Node_Module/issues/6">
+                            there's an issue open</a>
+                        requesting access to its sensors, but it hasn't been addressed after two months.
+                    </p>
+                    <p>
+                        The four endpoints are to control the led, vibration, shocking, and beeping. The vibration &
+                        shock endpoints require an intensity value, from 1 through 255. The led and beeping intensity values
+                        go from 1 through 4.
                     </p>
                 </div>
-                <div class="container" v-scroll-spy="scrollPos" style="max-width: 90vw; width: 800px;">
-                    <div>
-                        <h3>Introduction</h3>
-                        <p>
-                            Yesterday, my Pavlok 1 finally arrived. I began to test it out, and decided to start the Everyman
-                            sleep cycle. So far I failed by not taking my second nap, but I'll elaborate in another AAR.
-                        </p>
-                        <p>
-                            The Pavlok 1 has a
-                            <a href="http://pavlok-mvp.herokuapp.com/docs/index.html">well documented api</a>, which is expected
-                            since it's current version (0.0.1) only has 4 endpoints. Currently
-                            <a href="https://github.com/Behavioral-Technology-Group/Pavlok_Node_Module/issues/6">
-                                there's an issue open</a>
-                            requesting access to its sensors, but it hasn't been addressed after two months.
-                        </p>
-                        <p>
-                            The four endpoints are to control the led, vibration, shocking, and beeping. The vibration &
-                            shock endpoints require an intensity value, from 1 through 255. The led and beeping intensity values
-                            go from 1 through 4.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Authentication</h3>
-                        <img class="responsive" src="https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-applications-register.png"/>
-                        <p>
-                            Pavlok uses OAuth2, and using
-                            <a href="http://pavlok-mvp.herokuapp.com/docs/oauth.html">their instructions</a> you can go to
-                            the
-                            <a href="http://pavlok-mvp.herokuapp.com/oauth/applications">applications page</a>
-                            to create a new application. All you need is a name and a redirect URI. You can use
-                            <span class="token">urn:ietf:wg:oauth:2.0:oob</span> as the redirect URI for local tests, which
-                            will display a simple but functional page that will display your access token.
-                        </p>
-                        <p>
-                            After registering your application, you should be able to GET
-                            <span class="token">
-                            http://pavlok-mvp.herokuapp.com/oauth/authorize?client_id={id}&redirect_uri={uri}&response_type=code
-                        </span>, or click the handy Authenticate button on the applications page
-                        </p>
-                        <img class="responsive" src="https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-applications-authorize.png">
-                        <p class="caption text-center">
-                            The Client ID & Secret are lowercase alpha numerical strings with a length of 64.
-                            I generated fake identifiers as to not reveal my actual Client ID or Secret.
-                        </p>
-                        <p>
-                            If you used the URI for local tests, that will bring you to a page like this:
-                        </p>
-                        <img class="responsive"
-                             src="https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-uri-local-tests-page.png"
-                             style="margin: 50px 0 50px 0;"
-                        />
-                        <p>
-                            From here, we need to make a POST request to
-                            <span class="token">https://pavlok-mvp.herokuapp.com/oauth/token</span>
-                            with the following body.
-                        </p>
-                        <pre>
-                            <code>
-                                {{ code0 }}
-                            </code>
-                        </pre>
-                        <p>
-                            Which will return the following:
-                        </p>
-                        <pre>
-                            <code>
-                                {{ code1 }}
-                            </code>
-                        </pre>
-                        <p>
-                            Now we have our access token
-                            <span class="token">v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span>
-                            which means we can start using the endpoints.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Testing out Endpoints</h3>
-                        <p>
-                            Arduino's "Hello World" program is Blink, so let's work on something similar.
-                        </p>
-                        <p>
-                            The endpoint <span class="token">/api/v1/stimuli/led/:value</span> will blink the LED lights
-                            on the pavlok. <span class="token">:value</span> is the intensity. For the LED, this is how
-                            many times it will blink. Let's go ahead with a value of 4.
-                        </p>
-                        <p>
-                            Since the base url of the api is <span class="token">https://pavlok-mvp.herokuapp.com</span>
-                            we'll make a POST request to
-                            <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/led/4</span>. We still
-                            need to include the access token, in the form of a query string, so we'll actually send
-                            the post request to
-                            <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/led/4?access_token=v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span>
-                        </p>
-                        <p>
-                            You should now see the LEDs on your pavlok blinking. Now for the <em>shocking</em> twist,
-                            let's make a POST request to shock ourselves!
-                        </p>
-                        <p>
-                            The endpoint for the shock stimuli is <span class="token">/api/v1/stimuli/shock/:value</span>,
-                            so we just need to set the intensity and add our access token as a query string like before.
-                            Let's take it easy on ourselves and choose 50 out of 255. Just send a POST request to
-                            <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/shock/50?access_token=v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span> and you'll start to realize the possibilities! I only wish Duolingo would be willing
-                            to call a webhook so it can shock us when we get a question wrong.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Integration with Hotline</h3>
-                        <p>
-                            How the hotline works is that there's two numbers. The first number is kept a secret, and
-                            when called returns the TwiML from <span class="token">/</span>. The second number returns
-                            the TwiML from <span class="token">/forward</span>. The TwiML instructs Twilio to Dial the
-                            first number and to start recording. Since <span class="token">/forward</span> is served
-                            from a flask server, we just need to send the POST request prior to returning the TwiML.
-                        </p>
-                        <p>
-                            First we need to setup what we want to happen. In this case I want my pavlok to vibrate
-                            at the max setting. You may also notice that I'm giving a reason query string.
-                            The Pavlok App lets you look at the log, which is the list of reasons why your pavlok has
-                            given off stimuli. The reason will show up in your log as that reason, along with the name
-                            of the registered application.
-                        </p>
-                        <pre>
-                            <code>
-                                {{ code2 }}
-                            </code>
-                        </pre>
-                        <p>
-                            Now we need to actually call the function. The Twilio request sent to <span class="token">/</span>
-                            includes the number that is initiating the request under the <span class="token">From</span>
-                            key. With this knowledge, we can then call the method at the start of the route handler as
-                            seen below
-                        </p>
-                        <pre>
-                            <code>
-                                {{ code3 }}
-                            </code>
-                        </pre>
-                        <p>
-                            And there we have it! Whenever our hotline gets a call, we get a notification via vibration.
-                        </p>
-                        <p>
-                            You can view the repository at <a href="https://github.com/JCharante/ivr">JCharante/ivr</a>
-                        </p>
-                    </div>
+                <div>
+                    <h3>Authentication</h3>
+                    <img class="responsive" src="https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-applications-register.png"/>
+                    <p>
+                        Pavlok uses OAuth2, and using
+                        <a href="http://pavlok-mvp.herokuapp.com/docs/oauth.html">their instructions</a> you can go to
+                        the
+                        <a href="http://pavlok-mvp.herokuapp.com/oauth/applications">applications page</a>
+                        to create a new application. All you need is a name and a redirect URI. You can use
+                        <span class="token">urn:ietf:wg:oauth:2.0:oob</span> as the redirect URI for local tests, which
+                        will display a simple but functional page that will display your access token.
+                    </p>
+                    <p>
+                        After registering your application, you should be able to GET
+                        <span class="token">
+                        http://pavlok-mvp.herokuapp.com/oauth/authorize?client_id={id}&redirect_uri={uri}&response_type=code
+                    </span>, or click the handy Authenticate button on the applications page
+                    </p>
+                    <img class="responsive" src="https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-applications-authorize.png">
+                    <p class="caption text-center">
+                        The Client ID & Secret are lowercase alpha numerical strings with a length of 64.
+                        I generated fake identifiers as to not reveal my actual Client ID or Secret.
+                    </p>
+                    <p>
+                        If you used the URI for local tests, that will bring you to a page like this:
+                    </p>
+                    <img class="responsive"
+                         src="https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-uri-local-tests-page.png"
+                         style="margin: 50px 0 50px 0;"
+                    />
+                    <p>
+                        From here, we need to make a POST request to
+                        <span class="token">https://pavlok-mvp.herokuapp.com/oauth/token</span>
+                        with the following body.
+                    </p>
+                    <pre>
+                        <code>
+                            {{ code0 }}
+                        </code>
+                    </pre>
+                    <p>
+                        Which will return the following:
+                    </p>
+                    <pre>
+                        <code>
+                            {{ code1 }}
+                        </code>
+                    </pre>
+                    <p>
+                        Now we have our access token
+                        <span class="token">v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span>
+                        which means we can start using the endpoints.
+                    </p>
+                </div>
+                <div>
+                    <h3>Testing out Endpoints</h3>
+                    <p>
+                        Arduino's "Hello World" program is Blink, so let's work on something similar.
+                    </p>
+                    <p>
+                        The endpoint <span class="token">/api/v1/stimuli/led/:value</span> will blink the LED lights
+                        on the pavlok. <span class="token">:value</span> is the intensity. For the LED, this is how
+                        many times it will blink. Let's go ahead with a value of 4.
+                    </p>
+                    <p>
+                        Since the base url of the api is <span class="token">https://pavlok-mvp.herokuapp.com</span>
+                        we'll make a POST request to
+                        <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/led/4</span>. We still
+                        need to include the access token, in the form of a query string, so we'll actually send
+                        the post request to
+                        <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/led/4?access_token=v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span>
+                    </p>
+                    <p>
+                        You should now see the LEDs on your pavlok blinking. Now for the <em>shocking</em> twist,
+                        let's make a POST request to shock ourselves!
+                    </p>
+                    <p>
+                        The endpoint for the shock stimuli is <span class="token">/api/v1/stimuli/shock/:value</span>,
+                        so we just need to set the intensity and add our access token as a query string like before.
+                        Let's take it easy on ourselves and choose 50 out of 255. Just send a POST request to
+                        <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/shock/50?access_token=v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span> and you'll start to realize the possibilities! I only wish Duolingo would be willing
+                        to call a webhook so it can shock us when we get a question wrong.
+                    </p>
+                </div>
+                <div>
+                    <h3>Integration with Hotline</h3>
+                    <p>
+                        How the hotline works is that there's two numbers. The first number is kept a secret, and
+                        when called returns the TwiML from <span class="token">/</span>. The second number returns
+                        the TwiML from <span class="token">/forward</span>. The TwiML instructs Twilio to Dial the
+                        first number and to start recording. Since <span class="token">/forward</span> is served
+                        from a flask server, we just need to send the POST request prior to returning the TwiML.
+                    </p>
+                    <p>
+                        First we need to setup what we want to happen. In this case I want my pavlok to vibrate
+                        at the max setting. You may also notice that I'm giving a reason query string.
+                        The Pavlok App lets you look at the log, which is the list of reasons why your pavlok has
+                        given off stimuli. The reason will show up in your log as that reason, along with the name
+                        of the registered application.
+                    </p>
+                    <pre>
+                        <code>
+                            {{ code2 }}
+                        </code>
+                    </pre>
+                    <p>
+                        Now we need to actually call the function. The Twilio request sent to <span class="token">/</span>
+                        includes the number that is initiating the request under the <span class="token">From</span>
+                        key. With this knowledge, we can then call the method at the start of the route handler as
+                        seen below
+                    </p>
+                    <pre>
+                        <code>
+                            {{ code3 }}
+                        </code>
+                    </pre>
+                    <p>
+                        And there we have it! Whenever our hotline gets a call, we get a notification via vibration.
+                    </p>
+                    <p>
+                        You can view the repository at <a href="https://github.com/JCharante/ivr">JCharante/ivr</a>
+                    </p>
                 </div>
             </div>
         </div>
