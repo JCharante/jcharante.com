@@ -10,7 +10,7 @@
 
         <drawer slot="left"/>
 
-        <div class="layout-padding">
+        <div class="layout-padding" style="max-width: 90vw; width: 800px;">
             <p class="strong">English</p>
             <p>My everyday language, although it's actually my second language.</p>
             <p class="strong">Spanish</p>
