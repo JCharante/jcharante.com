@@ -16,6 +16,12 @@
         <div class="layout-padding">
             <div class="row justify-start">
                 <blog-card repo="https://github.com/JCharante/ivr"
+                           title="Integrating Pavlok with the National Yee Emergency Hotline"
+                           :pictures="['https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-1-black-wristband.jpg']"
+                           link="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline"
+                           published="Thu Oct 12 '17"
+                />
+                <blog-card repo="https://github.com/JCharante/ivr"
                            title="National Yee Emergency Hotline"
                            :pictures="['https://static.jcharante.com/aar/national-yee-emergency-hotline/yee-animated.gif']"
                            link="aar/national-yee-emergency-hotline"

@@ -15,10 +15,12 @@ import Quasar from 'quasar'
 import router from './router'
 import VueGitHubButtons from 'vue-github-buttons'
 import 'vue-github-buttons/dist/vue-github-buttons.css'
+import Scrollspy from 'vue2-scrollspy'
 
 Vue.config.productionTip = false
 Vue.use(VueGitHubButtons)
 Vue.use(Quasar) // Install Quasar Framework
+Vue.use(Scrollspy)
 
 if (__THEME === 'mat') {
     require('quasar-extras/roboto-font')
