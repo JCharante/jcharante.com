@@ -136,8 +136,8 @@
                         <span class="token">https://pavlok-mvp.herokuapp.com/api/v1/stimuli/led/4?access_token=v190u2w6ka3zvw6wen6mu1icenkforh589qecomhjtmfcom6a3o1kzz2xssxkv39</span>
                     </p>
                     <p>
-                        You should now see the LEDs on your pavlok blinking. Now for the <em>shocking</em> twist,
-                        let's make a POST request to shock ourselves!
+                        You should now see the LEDs on your pavlok blinking. Now you probably saw this coming so it
+                        won't <em>shock</em> you: let's make a POST request to shock ourselves!
                     </p>
                     <p>
                         The endpoint for the shock stimuli is <span class="token">/api/v1/stimuli/shock/:value</span>,
