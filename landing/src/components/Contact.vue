@@ -10,7 +10,7 @@
 
         <drawer slot="left"/>
 
-        <div class="layout-padding">
+        <div class="layout-padding" style="max-width: 90vw; width: 800px;">
             <p class="strong">Email</p>
             <p>You can always email me at contactme@jcharante.com</p>
 
