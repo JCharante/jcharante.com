@@ -29,7 +29,7 @@
             <q-side-link item to="/contact" exact>
                 <q-item>
                     <q-item-side icon="contacts" />
-                    <q-item-main label="Contact Info" sublabel="Talking to me is fun"/>
+                    <q-item-main label="Contact Info"/>
                 </q-item>
             </q-side-link>
         </q-list>
