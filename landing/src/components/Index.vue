@@ -26,7 +26,7 @@
                 I love romance languages, and am currently learning Esperanto & Italian.
             </p>
             <p>
-                I'm also pretty terrible at being vegan so most of the time I eat vegetarian.
+                I try to be Vegan, but fall back to vegetarianism pretty often.
             </p>
         </div>
     </q-layout>

@@ -28,7 +28,7 @@
                 talk.
             </p>
             <p>
-                My laptop actually has Esperanto as the system language, and it does help keep me immersed, especially
+                My laptop has Esperanto as the system language, and it does help keep me immersed, especially
                 when working on projects written entirely in Esperanto.
             </p> <!-- TODO: Link to baterio project page -->
             <p class="strong">Italian</p>
