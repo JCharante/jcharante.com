@@ -206,18 +206,26 @@
                              src="https://static.jcharante.com/aar/taking-the-national-yee-emergency-hotline-serverless/cloudflare.png"
                         />
                         <p>
-                            That was all I needed to the at the start, but at least now I know since I plan to deploy
-                            new projects such as ponto & baterio with Zappa. I've also learned that I should try to do
-                            a breadth first testing of solutions instead of focusing my time on one possible reason
-                            which would happen with depth first search.
+                            But since I enabled <span class="token">Full (Strict)</span>, my website & static assets
+                            served from an s3 bucket weren't accessible, so I had to create a CloudFront distribution
+                            and them CNAME those target domains to get it to work.
                         </p>
                     </div>
                     <div>
                         <h3>Postlude</h3>
                         <p>
+                            Figuring out that I needed to switch CloudFlare's SSL to Full (Strict) was what took the
+                            majority of the time, but at least now I know since I plan to deploy new projects such as
+                            ponto & baterio with Zappa. I'm also going to try to do more breadth first testing of
+                            solutions rather than focusing my time on one possible solution which would happen with
+                            depth first search.
+                        </p>
+                        <hr>
+                        <p>
                             Do you like the new section header? I think it looks a lot better than from when it was
                             in the right side drawer.
                         </p>
+                        <p>I've also increased the width of this content column to 850px.</p>
                     </div>
                 </div>
             </div>
