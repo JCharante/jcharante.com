@@ -42,6 +42,11 @@
                     <small>Thu Oct 12 '17</small>
                 </p>
             </div>
+            <p>
+                This is Part 2 of the National Yee Emergency Hotline series.
+                <router-link to="/aar/national-yee-emergency-hotline">Part 1</router-link> &
+                <router-link to="/aar/taking-the-national-yee-hotline-serverless">Part 3</router-link>.
+            </p>
             <div class="container" v-scroll-spy="scrollPos">
                 <div>
                     <h3>Introduction</h3>

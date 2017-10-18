@@ -15,9 +15,16 @@
 
         <div class="layout-padding">
             <div class="row justify-start" style="max-width: 40em;">
-                <h4 style="width: 100%">National Yee Emergency Hotline</h4>
+                <div>
+                    <h4 style="width: 100%">National Yee Emergency Hotline</h4>
+                    <p>
+                        <small>Wed Oct 4 '17</small>
+                    </p>
+                </div>
                 <p>
-                    <small>Wed Oct 4 '17</small>
+                    This is Part 1 of the National Yee Emergency Hotline series.
+                    <router-link to="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline">Part 2</router-link> &
+                    <router-link to="/aar/taking-the-national-yee-hotline-serverless">Part 3</router-link>.
                 </p>
                 <p>
                     Last night, I finally had time to work on a side project
