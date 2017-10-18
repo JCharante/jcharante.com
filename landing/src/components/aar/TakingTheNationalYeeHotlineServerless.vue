@@ -198,8 +198,8 @@
                             it under the hood) and went back to using API Gateway's Custom Domain Names. I then enabled
                             <span class="token>">Full</span> SSL on CloudFlare, and saw that it didn't work and broke my
                             static site, so I went back to creating a CloudFront distribution manually but this time
-                            with a subdomain wild card certificate, which of course made no different so i went back to
-                            using API Gateway's Custom Domain Names, but then tried using Full (Strict) SSL on
+                            with a subdomain wild card certificate, which of course made no difference so I went back to
+                            using API Gateway's Custom Domain Names, but using Full (Strict) SSL on
                             CloudFlare, and it finally worked.
                         </p>
                         <img class="responsive"
