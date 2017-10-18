@@ -17,7 +17,7 @@
 
         <drawer slot="left"/>
 
-        <div class="layout-padding row" style="max-width: 90vw; width: 850px;">
+        <div class="layout-padding row" style="max-width: 100%; width: 850px;">
             <div class="col">
                 <div>
                     <h4>Integrating Pavlok with the National Yee Emergency Hotline</h4>
