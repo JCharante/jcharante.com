@@ -35,6 +35,7 @@ export default new VueRouter({
         { path: '/aar/quitting-reddit', component: load('aar/QuittingReddit') },
         { path: '/aar/national-yee-emergency-hotline', component: load('aar/NationalYeeEmergencyHotline') },
         { path: '/aar/integrating-pavlok-with-the-national-yee-emergency-hotline', component: load('aar/IntegratingPavlokWithTheNationalYeeEmergencyHotline') },
+        { path: '/aar/taking-the-national-yee-hotline-serverless', component: load('aar/TakingTheNationalYeeHotlineServerless') },
         // Always leave this last one
         { path: '*', component: load('Error404') } // Not found
     ]
