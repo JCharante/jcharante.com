@@ -26,9 +26,10 @@
                     </p>
                 </div>
                 <p>
-                    This is Part 3 of the National Yee Emergency Hotline series.
+                    This is Part 3 of the National Yee Emergency Hotline series. For more context you can view
                     <router-link to="/aar/national-yee-emergency-hotline">Part 1</router-link> &
-                    <router-link to="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline">Part 2</router-link>.
+                    <router-link to="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline">Part 2</router-link>,
+                    but it's not necessary if you're only interested in the serverless content.
                 </p>
                 <div class="container" v-scroll-spy="scrollPos">
                     <div>
