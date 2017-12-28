@@ -22,7 +22,7 @@
                 <div>
                     <h4>Taking The National Yee Hotline Serverless</h4>
                     <p>
-                        <small>Wed Oct 18 '17</small>
+                        <small>Published Wed Oct 18 '17 (Refactored Wed Dec 27 '17)</small>
                     </p>
                 </div>
                 <p>
@@ -64,11 +64,11 @@
                              style="margin-bottom: 50px; margin-top: 50px;"
                         />
                         <p>
-                            When I first saw the above picture, which is showcased in their readme, I thought to myself
-                            "No way. No one is that excited about a tool that helps you deploy existing flask
-                            applications onto the AWS serverless stack". And oh boy, I was so wrong. I feel like I've
-                            found love again, because the last time I found something this great was in May with
-                            <a href="http://quasar-framework.org/">Quasar Framework</a>.
+                            When I first saw the above picture, which is showcased in their readme, I thought
+                            "That's a stupid picture to use. No one is <em>that</em> excited about a tool that helps you
+                            deploy existing flask applications onto the AWS serverless stack. It's just bonkers to compare
+                            it to a concert". And oh boy, how wrong was I! The last time I found something this neat was
+                            in May with <a href="http://quasar-framework.org/">Quasar Framework</a>.
                         </p>
                         <p>
                             I quickly started their 3 line example, and ran into some problems.
@@ -153,20 +153,10 @@
                             />
                         </div>
                         <p>
-                            So I went ahead and CNAME'd <span class="token">xxx.jcharante.com</span> to
+                            So I went ahead and CNAME'd <span class="token">ivr.jcharante.com</span> to
                             <span class="token">xxxxxxxxxxxxxx.cloudfront.net</span> and got stuck in a redirect loop
-                            and I just felt so helpless. It felt like that scene in Parks and Rec with the ice rink.
-                            Zappa (the red carpet) had brought me pretty far with very little effort, but now I had to
-                            stumble onto that stage except there was no one to help me up.
-                        </p>
-                        <div class="row justify-center" style="margin-bottom: 2em; margin-top: 2em;">
-                            <q-video
-                                src="https://www.youtube.com/embed/nojC6fP56VI?rel=0"
-                                style="max-width: 70vw; width: 500px; height: 300px"
-                            />
-                        </div>
                         <p>
-                            And so I whipped out curl, and saw that <span class="token">xxx.jcharante.com</span> was
+                            And so I whipped out curl, and saw that <span class="token">ivr.jcharante.com</span> was
                             returning a 301 redirect to itself. I found a
                             <a href="https://support.cloudflare.com/hc/en-us/articles/203487280">cloudflare support page</a>
                             about this, and I was using Flexible SSL at the time. It warned about making sure that
@@ -178,15 +168,9 @@
                             testing, I would focus on finding a way around AWS API Gateway's lack of HTTP support.
                             I ended up creating a CloudFront distribution to forward traffic to the API, except when
                             I CNAME'd that, I would end up being redirected to my api endpoint with a 301 instead of
-                            staying at <span class="token">xxx.jcharante.com</span>. I was way out of
+                            staying at <span class="token">ivr.jcharante.com</span>. I was way out of
                             my comfort zone and so confused.
                         </p>
-                        <div class="row justify-center">
-                            <img class="responsive"
-                                 src="https://static.jcharante.com/aar/taking-the-national-yee-emergency-hotline-serverless/1-00GZCLdcET9QrrJelfP70g.gif"
-                             />
-                        </div>
-                        <p class="caption text-center">I wish I could find the svg of this</p>
                         <p>
                             Now I don't mind being out of my comfort zone, I want to be out of it, or else I'll be stuck
                             writing CRUD apps for the rest of my life, which would be very boring and not at all
@@ -208,13 +192,13 @@
                         <p>
                             But since I enabled <span class="token">Full (Strict)</span>, my website & static assets
                             served from an s3 bucket weren't accessible, so I had to create a CloudFront distribution
-                            and them CNAME those target domains to get it to work.
+                            and then CNAME those target domains to get it to work.
                         </p>
                     </div>
                     <div>
-                        <h3>Postlude</h3>
+                        <h3>Postmortem</h3>
                         <p>
-                            Figuring out that I needed to switch CloudFlare's SSL to Full (Strict) was what took the
+                            Figuring out that I needed to switch CloudFlare's SSL to Full (Strict) took the
                             majority of the time, but at least now I know since I plan to deploy new projects such as
                             ponto & baterio with Zappa. I'm also going to try to do more breadth first testing of
                             solutions rather than focusing my time on one possible solution which would happen with
@@ -242,7 +226,7 @@
                         <q-item-main>DNS</q-item-main>
                     </q-item>
                     <q-item @click="$scrollTo(3)" :class="{'router-link-active': scrollPos === 3}">
-                        <q-item-main>Postlude</q-item-main>
+                        <q-item-main>Postmortem</q-item-main>
                     </q-item>
                 </q-list>
             </div>
