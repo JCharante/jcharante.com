@@ -16,17 +16,14 @@
                 I'm a software developer who favors Vue over React.
             </p>
             <p>
-                I main Ubuntu but I dual boot Windows on my Desktop in order to play video games.
+                I main Ubuntu but have to boot into Windows for robotics and video games.
             </p>
             <p>
                 I learned of Aaron Swartz posthumously (unfortunately), but I still learn from
-                <a href="http://www.aaronsw.com/weblog/">his lessons</a>.
+                <a href="http://www.aaronsw.com/weblog/">his experiences</a>.
             </p>
             <p>
-                I love romance languages, and am currently learning Esperanto & Italian.
-            </p>
-            <p>
-                I try to be Vegan, but fall back to vegetarianism pretty often.
+                I am currently learning Esperanto & Italian. I don't yet venture outside of the romance language family.
             </p>
         </div>
     </q-layout>
