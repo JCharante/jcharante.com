@@ -55,7 +55,10 @@
                 A pretty bad first impression with the company, but hopefully the alarm clock feature makes up for it.
             </p>
             <p>
-                I also wonder: Can I hug people in order to shock them?
+                I also wonder: Can I poke people in order to shock them?
+            </p>
+            <p>
+                UPDATE Wed Dec 27 '17: That's not how electricity works.
             </p>
         </div>
     </q-layout>

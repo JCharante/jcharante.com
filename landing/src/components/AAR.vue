@@ -13,43 +13,39 @@
 
         <drawer slot="left"/>
 
-        <div class="layout-padding">
-            <div class="row justify-start">
-                <blog-card repo="https://github.com/JCharante/ivr"
-                           title="Taking The National Yee Hotline Serverless"
-                           :pictures="['https://static.jcharante.com/aar/taking-the-national-yee-emergency-hotline-serverless/zappa-logo.jpg']"
-                           link="/aar/taking-the-national-yee-hotline-serverless"
-                           published="Wed Oct 18 '17"
-                />
-                <blog-card repo="https://github.com/JCharante/ivr"
-                           title="Integrating Pavlok with the National Yee Emergency Hotline"
-                           :pictures="['https://static.jcharante.com/aar/nationa-yee-emergency-hotline-2/pavlok-1-black-wristband.jpg']"
-                           link="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline"
-                           published="Thu Oct 12 '17"
-                />
-                <blog-card repo="https://github.com/JCharante/ivr"
-                           title="National Yee Emergency Hotline"
-                           :pictures="['https://static.jcharante.com/aar/national-yee-emergency-hotline/yee-animated.gif']"
-                           link="aar/national-yee-emergency-hotline"
-                           published="Wed Oct 4 '17"
-                />
-                <blog-card repo="https://github.com/JCharante/quit-reddit"
-                           title="Quitting Reddit"
-                           :pictures="['https://static.jcharante.com/aar/quitting-reddit/reddit-logo.png']"
-                           link="aar/quitting-reddit"
-                           published="Tue Oct 3 '17"
-                />
-                <blog-card repo="https://github.com/JCharante/haulers-channel-reward-calc"
-                           title="The Story of My Most Successful Repo"
-                           :pictures="['/statics/haulers-channel-reward-calc-e74940a0290e3165f2b6456e7e9f0aa0db66b1c4-ogb.html.png']"
-                           link="aar/haulers-channel-reward-calc"
-                           published="Sun Oct 1 '17"
-                />
-                <blog-card title="Pavlok"
-                           :pictures="['https://cdn.shopify.com/s/files/1/0601/9629/products/square_2x-80.jpg?v=1496424343']"
-                           link="aar/pavlok"
-                           published="Sun Oct 1 '17"
-                />
+        <div class="layout-padding row justify-center">
+            <div style="width: 500px; max-width: 90vw;">
+                <q-list highlight>
+                    <q-list-header>Recent Posts</q-list-header>
+                    <blog-item title="Installing YOLO on Ubuntu 17.10"
+                               published="Wed Dec 27 '17"
+                               link="/aar/yolo"
+                    />
+                    <blog-item title="Taking The National Yee Hotline Serverless"
+                               published="Wed Oct 18 '17"
+                               link="/aar/taking-the-national-yee-hotline-serverless"
+                    />
+                    <blog-item title="Integrating Pavlok with the National Yee Emergency Hotline"
+                               published="Thu Oct 12 '17"
+                               link="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline"
+                    />
+                    <blog-item title="National Yee Emergency Hotline"
+                               link="aar/national-yee-emergency-hotline"
+                               published="Wed Oct 4 '17"
+                    />
+                    <blog-item title="Quitting Reddit"
+                               link="aar/quitting-reddit"
+                               published="Tue Oct 3 '17"
+                    />
+                    <blog-item title="The Story of My Most Successful Repo"
+                               link="aar/haulers-channel-reward-calc"
+                               published="Sun Oct 1 '17"
+                    />
+                    <blog-item title="Pavlok"
+                               link="aar/pavlok"
+                               published="Sun Oct 1 '17"
+                    />
+                </q-list>
             </div>
         </div>
     </q-layout>
@@ -65,6 +61,7 @@
         QList,
         QListHeader,
         QItem,
+        QItemTile,
         QItemSide,
         QItemMain,
         QSideLink
@@ -72,6 +69,7 @@
 
     import Drawer from './Drawer.vue'
     import BlogCard from './BlogCard.vue'
+    import BlogItem from './BlogItem'
 
     export default {
         name: 'index',
@@ -84,11 +82,13 @@
             QList,
             QListHeader,
             QItem,
+            QItemTile,
             QItemSide,
             QItemMain,
             QSideLink,
             Drawer,
-            BlogCard
+            BlogCard,
+            BlogItem
         },
         data () {
             return {}
