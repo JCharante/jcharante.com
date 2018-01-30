@@ -22,13 +22,10 @@
             <div>
                 <h5>This Website</h5>
                 <p>
-                    Frontend Tech: Vue, Quasar Framework, Stylus
+                    Frontend: Vue, Quasar Framework, Stylus
                 </p>
                 <p>
-                    Backend Tech: Hosted on an AWS S3 Bucket, Cloudflare
-                </p>
-                <p>
-                    QA Tools: ESLint, stylint
+                    Backend: Hosted on an AWS S3 Bucket, Cloudflare
                 </p>
                 <p>
                     <a href="https://github.com/JCharante/jcharante.com">View the GitHub Repo</a>
@@ -39,18 +36,22 @@
                 <h5>National Yee Emergency Hotline</h5>
                 <p>
                     The goal is to provide our clients who are yee depraved with the yee's necessary for them to go on
-                    by operating an IVR that plays remixes of songs.
+                    by operating an IVR that plays yee-remixes of songs.
                 </p>
                 <p>
-                    Backend Tech: Twilio, Flask, AWS S3, Pavlok API, Cloudflare
+                    Backend Tech: Twilio, Flask, AWS S3, Pavlok API, Cloudflare.
                 </p>
                 <p>
                     I have written about the creation of the Hotline which lightly covers TwiML
                     <router-link to="/aar/national-yee-emergency-hotline">in this AAR</router-link>.
                 </p>
                 <p>
-                    I have also written about integrating my Pavlok so that it vibrates whenever someone calls the hotline
+                    I written about integrating my Pavlok so that it vibrates whenever someone calls the hotline
                     <router-link to="/aar/integrating-pavlok-with-the-national-yee-emergency-hotline">in this AAR</router-link>.
+                </p>
+                <p>
+                    I've written about taking the yee hotline serverless with Zappa & AWS
+                    <router-link to="/aar/taking-the-national-yee-hotline-serverless">in this AAR</router-link>.
                 </p>
                 <p>
                     <a href="https://github.com/JCharante/ivr">View the GitHub Repo</a>
@@ -64,16 +65,17 @@
                     your robot. Batteries are a mission critical component, which is why I'm creating a data entry app
                     to register every interaction with the batteries, building a dataset, to do retrospective analysis
                     in order to determine which brand/models are best for us, and to categorize batteries into levels of
-                    risk. Oh, and it's written in Esperanto
+                    risk.
                 </p>
                 <p>
-                    Frontend Tech: Vue, Quasar Framework, i18n, GraphQL, Cordova
+                    It's been a good experience since I haven't experimented with supporting i18n before, and I'm shipping
+                    it as a Progressive Web App rather than creating a WebView wrapper with Cordova.
                 </p>
                 <p>
-                    Backend Tech: Graphene (Python GraphQL Implementation), Docker, Flask, SQLAlchemy, AWS RDS (MySQL), Cloudflare
+                    Frontend: Vue, Quasar Framework, GraphQL, i18n support
                 </p>
                 <p>
-                    QA Tools: Travis CI builds the app & tests the GraphQL API on every commit, ESLint, styling
+                    Backend: Graphene (Python GraphQL Implementation), Docker, Flask, SQLAlchemy, AWS RDS (MySQL), Cloudflare
                 </p>
                 <p>
                     <a href="https://github.com/frc5687/baterio">View the GitHub Repo</a>
@@ -113,10 +115,10 @@
                     mogul and operator of said community.
                 </p>
                 <p>
-                    Frontend Tech: jQuery, Materialize CSS
+                    Frontend: jQuery, Materialize CSS
                 </p>
                 <p>
-                    Backend Tech: Hosted on GitHub Pages
+                    Backend: Hosted on GitHub Pages
                 </p>
                 <p>
                     <router-link to="blog/haulers-channel-reward-calc">View the writeup here</router-link>
