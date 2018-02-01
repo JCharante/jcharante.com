@@ -17,6 +17,10 @@
             <div style="width: 500px; max-width: 90vw;">
                 <q-list highlight>
                     <q-list-header>Recent Posts</q-list-header>
+                    <blog-item title="Chau"
+                               published="Thu Feb 01 '18"
+                               link="/aar/chau"
+                    />
                     <blog-item title="Saluton"
                                published="Tue Jan 30 '18"
                                link="/aar/saluton"

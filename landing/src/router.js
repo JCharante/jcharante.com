@@ -38,6 +38,7 @@ export default new VueRouter({
         { path: '/aar/taking-the-national-yee-hotline-serverless', component: load('aar/TakingTheNationalYeeHotlineServerless') },
         { path: '/aar/yolo', component: load('aar/Yolo') },
         { path: '/aar/saluton', component: load('aar/Saluton') },
+        { path: '/aar/chau', component: load('aar/Chau') },
         // Always leave this last one
         { path: '*', component: load('Error404') } // Not found
     ]
