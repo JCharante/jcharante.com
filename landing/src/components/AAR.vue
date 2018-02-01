@@ -17,6 +17,10 @@
             <div style="width: 500px; max-width: 90vw;">
                 <q-list highlight>
                     <q-list-header>Recent Posts</q-list-header>
+                    <blog-item title="Saluton"
+                               published="Tue Jan 30 '18"
+                               link="/aar/saluton"
+                    />
                     <blog-item title="Installing YOLO on Ubuntu 17.10"
                                published="Wed Dec 27 '17"
                                link="/aar/yolo"

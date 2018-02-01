@@ -37,6 +37,7 @@ export default new VueRouter({
         { path: '/aar/integrating-pavlok-with-the-national-yee-emergency-hotline', component: load('aar/IntegratingPavlokWithTheNationalYeeEmergencyHotline') },
         { path: '/aar/taking-the-national-yee-hotline-serverless', component: load('aar/TakingTheNationalYeeHotlineServerless') },
         { path: '/aar/yolo', component: load('aar/Yolo') },
+        { path: '/aar/saluton', component: load('aar/Saluton') },
         // Always leave this last one
         { path: '*', component: load('Error404') } // Not found
     ]
