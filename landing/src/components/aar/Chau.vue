@@ -36,7 +36,7 @@
                             (derived from <L>IT: ciao</L>),
                             but they heard <L>IT: ciao</L> because they said "isn't ciao an Italian word? and weren't you
                             speaking Spanish?"
-                            I didn't know how to respond. Here was this person (who in hindsight was maybe expression
+                            I didn't know how to respond. Here was this person (who in hindsight was maybe expressing
                             genuine curiosity but at the time it seemed snarky) claiming that I was wrong to have used
                             that word, except that I had always used this word--and so had everyone else when I was
                             growing up. It was <em>the</em> word to use when
