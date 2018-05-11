@@ -235,11 +235,11 @@
     git clone https://github.com/pjreddie/darknet
     cd darknet
     make # remember to use the -j option to compile faster, so if you have 8 cores run: make -j8`,
-                    `
+                `
     wget https://pjreddie.com/media/files/yolo.weights`,
-                    `
+                `
     ./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg`,
-                    `
+                `
     jcharante@brad:~/Projects/darknet$ ./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg
     layer     filters    size              input                output
         0 conv     32  3 x 3 / 1   608 x 608 x   3   ->   608 x 608 x  32
@@ -254,26 +254,26 @@
     car: 27%
     truck: 64%
     bicycle: 85%`,
-                    `
+                `
     # Add cuda to path | source: https://groups.google.com/forum/#!topic/darknet/FHkYFLWQn4Y
     export PATH=/usr/local/cuda/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH`,
-                    `
+                `
     sudo apt-get install libopencv-dev`,
-                    `
+                `
     # if you don't have gcc-6 (you should?)
     sudo apt install gcc-6
     # create the symlink
     sudo ln -s /usr/bin/gcc-6 /usr/local/cuda/bin/gcc`,
-                    `
+                `
     GPU=0
     CUDNN=0
     OPENCV=0`,
-                    `
+                `
     GPU=1
     CUDNN=0
     OPENCV=1`,
-                    `,
+                `,
     make # remember to use the -j option to compile faster, so if you have 8 cores run: make -j8`
                 ]
             }
