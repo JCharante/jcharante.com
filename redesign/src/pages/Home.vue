@@ -1,0 +1,11 @@
+<template>
+  <q-layout>
+    <q-page-container>
+      <q-page>
+        <h3>jcharante.com</h3>
+        <a><p>About</p></a>
+        <a><p>Projects</p></a>
+      </q-page>
+    </q-page-container>
+  </q-layout>
+</template>
