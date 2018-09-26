@@ -6,7 +6,7 @@
           <div class="row justify-between">
             <a href="/">Home</a>
             <a href="/projects">Projects</a>
-            <a href="/AARs">AARs</a>
+            <a href="/aars">AARs</a>
             <a href="/languages">Languages</a>
             <a href="/about">About</a>
           </div>
