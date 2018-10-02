@@ -28,7 +28,7 @@
           <hr>
           <div class="row justify-between">
             <p>Powered by <a href="https://quasar-framework.org">Quasar Framework</a></p>
-            <p>Last updated on 09/26/18</p>
+            <p>Last updated on 10/02/18</p>
           </div>
         </div>
       </q-page>
