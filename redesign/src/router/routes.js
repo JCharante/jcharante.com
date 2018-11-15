@@ -6,7 +6,17 @@ const routes = [
   },
   {
     path: '/thoughts',
-    component: () => import('pages/Thoughts.vue')
+    component: () => import('pages/Thoughts.vue'),
+    children: [
+      {
+        path: '',
+        component: () => import('pages/Thoughts/Index.vue')
+      },
+      {
+        path: 'simple-look',
+        component: () => import('pages/Thoughts/SimpleLook.vue')
+      }
+    ]
   },
   {
     path: '/languages',
