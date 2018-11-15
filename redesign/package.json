@@ -7,7 +7,7 @@
   "author": "John Zarate",
   "private": true,
   "scripts": {
-    "deploy:ssr-now": "cd dist/ssr-mat && now",
+    "deploy:ssr-now": "cd dist/ssr-mat && now --public && now alias",
     "build:ssr-now": "quasar build -m ssr && cp now.json dist/ssr-mat",
     "start-old": "node dist/ssr-mat/server/index.js",
     "lint": "eslint --ext .js,.vue src",
