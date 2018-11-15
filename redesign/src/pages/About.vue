@@ -4,19 +4,12 @@
       <q-page>
         <SimplePage>
           <div>
-            <p>Want to know my name? <a href="https://static.jcharante.com/name.svg">consult this flowchart</a></p>
+            <p>I have a handy dandy flowchart concerning what to call me: <a href="https://static.jcharante.com/name.svg">name.svg</a></p>
             <p>Need to shoot me an email? <a href="mailto:contactme@jcharante.com">contactme@jcharante.com</a></p>
             <p>If you're looking for my <a href="https://static.jcharante.com/resume-john-zarate.pdf">resume, here it is</a></p>
-            <p>I did web development in High School, but I always tinkered with back-end solutions.</p>
-            <p>I was born and lived in Lima, Peru, but I later moved to Portland, ME.</p>
-            <p>I'm in the Greater Boston area working on my studies at Worcester Polytechnic Institute.</p>
-            <p>I main Pop!_OS, and it's a great OS, but I'm forced to use Windows 10 for robotics & recreational purposes.</p>
-            <p>I'm an aspiring polyglot, and hope to fluent in 5 languages by the time I graduate from WPI.</p>
-            <ul>
-              <li>L1: Spanish, English</li>
-              <li>L2: Esperanto</li>
-              <li>L3: Vietnamese, Mandarin?</li>
-            </ul>
+            <p>I messed around with front end and backend solutions while in High School in Maine.</p>
+            <p>Now I'm in the Greater Boston area working on my studies (CS Major) at Worcester Polytechnic Institute.</p>
+            <p>I use Pop!_OS as my daily driver, but I use Windows 10 for robotics & recreational purposes.</p>
           </div>
         </SimplePage>
       </q-page>

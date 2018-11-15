@@ -5,8 +5,8 @@ const routes = [
     component: () => import('pages/About.vue')
   },
   {
-    path: '/aars',
-    component: () => import('pages/AARs.vue')
+    path: '/thoughts',
+    component: () => import('pages/Thoughts.vue')
   },
   {
     path: '/languages',

@@ -4,7 +4,8 @@
       <q-page>
         <SimplePage>
           <div>
-            <p>Apologies, but I'm still working on migrating my site to Quasar v0.17 from v0.14, which means there's no content here yet.</p>
+            <p>There's going to be write ups about some projects I've worked on here.
+              I've been swamped with procrastination lately so eventually there will be stuff here.</p>
           </div>
         </SimplePage>
       </q-page>
