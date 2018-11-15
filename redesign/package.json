@@ -7,8 +7,9 @@
   "author": "John Zarate",
   "private": true,
   "scripts": {
-    "build": "quasar build -m ssr",
-    "start": "node dist/ssr-mat/server/index.js",
+    "deploy:ssr-now": "cd dist/ssr-mat && now",
+    "build:ssr-now": "quasar build -m ssr && cp now.json dist/ssr-mat",
+    "start-old": "node dist/ssr-mat/server/index.js",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
   },
