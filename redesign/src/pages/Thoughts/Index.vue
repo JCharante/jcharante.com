@@ -15,6 +15,8 @@
           <li>Robot Atheists</li>
           <li>The overuse of the word "terrorist"</li>
           <li>Texas is too hot</li>
+          <li>The food at WPI</li>
+          <li>The food at South Street Diner</li>
         </ul>
       </div>
     </SimplePage>

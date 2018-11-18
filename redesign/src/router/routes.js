@@ -28,7 +28,17 @@ const routes = [
   },
   {
     path: '/projects',
-    component: () => import('pages/Projects.vue')
+    component: () => import('pages/Thoughts.vue'),
+    children: [
+      {
+        path: '',
+        component: () => import('pages/Projects/Index.vue')
+      },
+      {
+        path: 'website',
+        component: () => import('pages/Projects/Website.vue')
+      }
+    ]
   },
   {
     path: '/',
