@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Drops: La Seta</b> (Sun Nov 18)</p>
+        <p><b>Drops: La Seta</b> (Sun Nov 18 '18)</p>
         <p>Yesterday, while searching for apps either like Amikumu or something to help build my vocabulary, I ran into
         an app* called Drops.</p>
         <p>*because they actually have the "Drops" app, whose favicon is flag-neutral, but then they have a version of
