@@ -15,6 +15,10 @@ const routes = [
       {
         path: 'simple-look',
         component: () => import('pages/Thoughts/SimpleLook.vue')
+      },
+      {
+        path: 'drops-la-seta',
+        component: () => import('pages/Thoughts/DropsLaSeta.vue')
       }
     ]
   },
