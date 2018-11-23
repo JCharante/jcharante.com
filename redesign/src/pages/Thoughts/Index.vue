@@ -7,16 +7,15 @@
           and I'm always open to having my mind changed. So feel free to email me with comments.</p>
         <p>(note: list elements without hyperlinks are still incomplete and may be a future topic I'm interested in writing about)</p>
         <ul>
+          <li><a href="thoughts/south-street-diner">Food at the South Street Diner (Fri Nov 23 '18)</a></li>
           <li><a href="thoughts/drops-la-seta">Drops: La Seta</a> (Sun Nov 18 '18)</li>
           <li><a href="thoughts/simple-look">Why the simple look?</a> (Thu Nov 15 '18)</li>
           <li>No more bag in FRC</li>
-          <li>Why I live the way I do (re: veganism)</li>
-          <li>Thoughts on PETA</li>
+          <li>Thoughts on "Veganism", PETA, and the IVA</li>
           <li>Robot Atheists</li>
           <li>The overuse of the word "terrorist"</li>
           <li>Texas is too hot</li>
           <li>The food at WPI</li>
-          <li>The food at South Street Diner</li>
         </ul>
       </div>
     </SimplePage>

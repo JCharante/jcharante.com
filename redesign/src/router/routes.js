@@ -19,6 +19,10 @@ const routes = [
       {
         path: 'drops-la-seta',
         component: () => import('pages/Thoughts/DropsLaSeta.vue')
+      },
+      {
+        path: 'south-street-diner',
+        component: () => import('pages/Thoughts/SouthStreetDiner.vue')
       }
     ]
   },
