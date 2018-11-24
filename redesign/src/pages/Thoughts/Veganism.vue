@@ -12,7 +12,7 @@
         <p><b>How I became vegetarian:</b> So my sister is a few years older than I am. She's always had an
         affinity for animals, and so she started volunteering at an animal shelter pretty frequently, and after a period
         of time, I want to say a year but it was probably 7 or 8 months, she convinced me to start volunteering
-        there myself. Now at the time my favorite type of pizza was Hawaiian. I still remember walking an excerpt from
+        there myself. Now at the time my favorite type of pizza was Hawaiian. I still remember an excerpt from
         when I was a small child, crossing a major junction enroute to a pizza place. We sat at a table that was located
         under a slight slope. Pineapple is absolutely delicious pizza topping. I don't remember when it began, but eventually
         it become a routine where my father would pick us up from the refuge league, and then we'd go out for pizza
