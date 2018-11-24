@@ -23,6 +23,10 @@ const routes = [
       {
         path: 'south-street-diner',
         component: () => import('pages/Thoughts/SouthStreetDiner.vue')
+      },
+      {
+        path: 'veganism',
+        component: () => import('pages/Thoughts/Veganism.vue')
       }
     ]
   },
