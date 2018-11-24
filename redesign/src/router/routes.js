@@ -31,6 +31,14 @@ const routes = [
       {
         path: 'drops-500',
         component: () => import('pages/Thoughts/DropsAfterKvinCentWords.vue')
+      },
+      {
+        path: 'texas-too-hot',
+        component: () => import('pages/Thoughts/TexasTooHot.vue')
+      },
+      {
+        path: 'breakup',
+        component: () => import('pages/Thoughts/Breakup.vue')
       }
     ]
   },
