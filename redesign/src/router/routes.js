@@ -27,6 +27,10 @@ const routes = [
       {
         path: 'veganism',
         component: () => import('pages/Thoughts/Veganism.vue')
+      },
+      {
+        path: 'drops-500',
+        component: () => import('pages/Thoughts/DropsAfterKvinCentWords.vue')
       }
     ]
   },

@@ -7,6 +7,7 @@
           and I'm always open to having my mind changed. So feel free to email me with comments.</p>
         <p>(note: list elements without hyperlinks are still incomplete and may be a future topic I'm interested in writing about)</p>
         <ul>
+          <li><a href="thoughts/drops-500">Drops: 500 Words Later</a> (Sat Nov 24 '18)</li>
           <li><a href="thoughts/veganism">Thoughts on "Veganism", PETA, and the IVA</a> (Fri Nov 23 '18)</li>
           <li><a href="thoughts/south-street-diner">Food at the South Street Diner</a> (Fri Nov 23 '18)</li>
           <li><a href="thoughts/drops-la-seta">Drops: La Seta</a> (Sun Nov 18 '18)</li>
