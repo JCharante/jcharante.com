@@ -19,6 +19,26 @@ const routes = [
       {
         path: 'drops-la-seta',
         component: () => import('pages/Thoughts/DropsLaSeta.vue')
+      },
+      {
+        path: 'south-street-diner',
+        component: () => import('pages/Thoughts/SouthStreetDiner.vue')
+      },
+      {
+        path: 'veganism',
+        component: () => import('pages/Thoughts/Veganism.vue')
+      },
+      {
+        path: 'drops-500',
+        component: () => import('pages/Thoughts/DropsAfterKvinCentWords.vue')
+      },
+      {
+        path: 'texas-too-hot',
+        component: () => import('pages/Thoughts/TexasTooHot.vue')
+      },
+      {
+        path: 'breakup',
+        component: () => import('pages/Thoughts/Breakup.vue')
       }
     ]
   },
@@ -28,7 +48,17 @@ const routes = [
   },
   {
     path: '/projects',
-    component: () => import('pages/Projects.vue')
+    component: () => import('pages/Thoughts.vue'),
+    children: [
+      {
+        path: '',
+        component: () => import('pages/Projects/Index.vue')
+      },
+      {
+        path: 'website',
+        component: () => import('pages/Projects/Website.vue')
+      }
+    ]
   },
   {
     path: '/',
