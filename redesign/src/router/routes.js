@@ -43,6 +43,10 @@ const routes = [
       {
         path: 'hello-talk',
         component: () => import('pages/Thoughts/HelloTalk.vue')
+      },
+      {
+        path: 'hello-talk-du',
+        component: () => import('pages/Thoughts/HelloTalkDu.vue')
       }
     ]
   },
