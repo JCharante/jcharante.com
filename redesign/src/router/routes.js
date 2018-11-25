@@ -39,6 +39,10 @@ const routes = [
       {
         path: 'breakup',
         component: () => import('pages/Thoughts/Breakup.vue')
+      },
+      {
+        path: 'hello-talk',
+        component: () => import('pages/Thoughts/HelloTalk.vue')
       }
     ]
   },

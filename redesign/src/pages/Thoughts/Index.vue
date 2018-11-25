@@ -7,6 +7,7 @@
           and I'm always open to having my mind changed. So feel free to email me with comments.</p>
         <p>(note: list elements without hyperlinks are still incomplete and may be a future topic I'm interested in writing about)</p>
         <ul>
+          <li><a href="thoughts/hello-talk">Hello Talk: First Impressions</a> (Sun Nov 25 '18)</li>
           <li><a href="thoughts/breakup">How to break up</a> (Sat Nov 24 '18)</li>
           <li><a href="thoughts/texas-too-hot">Texas is too hot</a> (Sat Nov 24 '18)</li>
           <li><a href="thoughts/drops-500">Drops: 500 Words Later</a> (Sat Nov 24 '18)</li>
