@@ -7,6 +7,7 @@
           and I'm always open to having my mind changed. So feel free to email me with comments.</p>
         <p>(note: list elements without hyperlinks are still incomplete and may be a future topic I'm interested in writing about)</p>
         <ul>
+          <li><a href="thoughts/hello-talk-kvar">Hello Talk: Fourth Update</a> (Mon Nov 26 '18)</li>
           <li><a href="thoughts/hello-talk-tri">Hello Talk: Third Update</a> (Sun Nov 25 '18)</li>
           <li><a href="thoughts/hello-talk-du">Hello Talk: Second Update</a> (Sun Nov 25 '18)</li>
           <li><a href="thoughts/hello-talk">Hello Talk: First Impressions</a> (Sun Nov 25 '18)</li>
