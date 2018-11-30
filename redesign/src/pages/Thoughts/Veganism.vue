@@ -164,8 +164,30 @@
         up about 12 hours in and have been vegan since. So don't adopt a fruitarian diet, it's a really slow
         way to kill yourself, I.. I.. I wouldn't recommend it. </p>
         <p><b>Why I hate calling myself vegan and why I hate the word.</b></p>
-        <p>I've been writing for about 4 hours now. I'm just going to go ahead and push this to production and I'll come back
-        later to finish this.</p>
+        <p>One time at a club where people who are veg* meet I was explaning to someone what vegetarian, lacto-vegetarian,
+        ovo-vegetarian, and lacto-ovo-vegetarian meant, and how some people interpret vegetarian as lacto-ovo-vegetarian
+        while some mean it as sans-lacto and sans-ovo vegetarian (so just vegetarian), and how it's just safer to go
+        with vegan and they said that they really didn't like moving the discussion towards that because it causes
+        fragmentation.</p>
+        <p>But that fragmentation already exists to a large degree. When ordering a salad in Maine, I'm asked
+        if honey is okay or if I'm a true vegan. or in Texas I'm asked if I'm a super vegan when it comes to excluding
+        honey. If you google "vegan" the dictionary definition (which comes from the Oxford pocket dictionary iirc)
+        it says "a person who does not eat or use animal products." Except I use a leather belt. Does that mean I'm not
+        vegan. I've had this belt since before I was vegetarian, and I don't see why I shouldn't use it until it's in an
+        unusable condition. Once that happens, I'll go buy a vegan belt.</p>
+        <p>I define the term as a lifestyle that minimizes unnecessary cruelty. People say "oh I forgot you were
+        vegan because you're not one of <i>those</i> annoying vegans." Does this mean I'm not a vegan if I don't go
+        out of my way to annoy people or play the sounds of cows being slaughtered at a steakhouse? It's actually
+        kinda funny, people will say "not <i>all</i> muslims are like that" but then immediately label all vegans
+        as annoying. Not all "vegans" are the same. Not everyone who plays video games is the same. Everyone in a "group"
+        behaves differently. It's not like I have the same personality as other vegans, just like all Asians don't have
+        the same personality. Another day I'm going to have to go back to rewrite this and get my thoughts straight
+        because at this point this is just an incoherent mess, but let's talk about some annoying virtue signalling.</p>
+        <p>At Vegfest I came across a table where they were giving out flyers and bumper stickers with the phrase similar to
+        "I'm boycotting McDonalds until they stop mistreating their chickens". But that's bullshit. You wouldn't eat
+        at McDonalds anyways, because it's McDonalds!! The food is garbage, once they stop that, you're still not going to
+        eat there. How is it boycotting if you never purchase anything from there anyways?</p>
+        <p></p>
       </div>
     </SimplePage>
   </q-page>
