@@ -1,10 +1,10 @@
 <template>
   <div class="layout-padding" style="max-width: 90vw; width: 800px; margin-top: 0vh;">
-    <SimpleNavbar/>
-    <hr>
+    <!--<SimpleNavbar/>
+    <hr>-->
     <slot/>
-    <hr>
-    <Footer/>
+    <!--<hr>
+    <Footer/>-->
   </div>
 </template>
 

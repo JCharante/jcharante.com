@@ -19,10 +19,10 @@
           <li><a href="thoughts/south-street-diner">Food at the South Street Diner</a> (Fri Nov 23 '18)</li>
           <li><a href="thoughts/drops-la-seta">Drops: La Seta</a> (Sun Nov 18 '18)</li>
           <li><a href="thoughts/simple-look">Why the simple look?</a> (Thu Nov 15 '18)</li>
-          <li>No more bag in FRC</li>
+          <li>Kio estas FRC?</li>
           <li>Robot Atheists</li>
           <li>The overuse of the word "terrorist"</li>
-          <li>The food at WPI</li>
+          <li>GitHub Pro badge</li>
         </ul>
       </div>
     </SimplePage>
