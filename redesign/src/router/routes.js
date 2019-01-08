@@ -77,7 +77,8 @@ const routes = [
           {
             path: 'hello-talk-kvin',
             component: () => import('pages/Thoughts/HelloTalkKvin.vue')
-          }
+          },
+          { path: '190108', component: () => import('pages/Thoughts/190108.vue') }
         ]
       },
       {
