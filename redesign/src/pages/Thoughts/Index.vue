@@ -7,6 +7,7 @@
           and I'm always open to having my mind changed. So feel free to email me with comments.</p>
         <p>(note: list elements without hyperlinks are still incomplete and may be a future topic I'm interested in writing about)</p>
         <ul>
+          <li><router-link to="thoughts/190110">190110</router-link> (Thu Jan 10 '19)</li>
           <li><router-link to="thoughts/190108">190108</router-link> (Tue Jan 8 '19)</li>
           <li><a href="thoughts/hello-talk-kvin">Hello Talk: Fifth Update</a> (Wed Nov 28 '18)</li>
           <li><a href="thoughts/hello-talk-kvar">Hello Talk: Fourth Update</a> (Mon Nov 26 '18)</li>
