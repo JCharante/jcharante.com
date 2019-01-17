@@ -17,7 +17,7 @@
           <li><a href="thoughts/breakup">How to break up</a> (Sat Nov 24 '18)</li>
           <li><a href="thoughts/texas-too-hot">Texas is too hot</a> (Sat Nov 24 '18)</li>
           <li><a href="thoughts/drops-500">Drops: 500 Words Later</a> (Sat Nov 24 '18)</li>
-          <li><a href="thoughts/veganism">Thoughts on "Veganism", PETA, and the IVA</a> (Fri Nov 23 '18)</li>
+          <!--<li><a href="thoughts/veganism">Thoughts on "Veganism", PETA, and the IVA</a> (Fri Nov 23 '18)</li>-->
           <li><a href="thoughts/south-street-diner">Food at the South Street Diner</a> (Fri Nov 23 '18)</li>
           <li><a href="thoughts/drops-la-seta">Drops: La Seta</a> (Sun Nov 18 '18)</li>
           <li><a href="thoughts/simple-look">Why the simple look?</a> (Thu Nov 15 '18)</li>
