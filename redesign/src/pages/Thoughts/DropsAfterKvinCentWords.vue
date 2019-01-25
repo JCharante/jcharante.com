@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Drops: 500 Words Later</b> (Sat Nov 24 '18)</p>
+        <p><b>Drops: 500 Words Later</b> (Nov '18)</p>
         <p>This is part 2 in the Drops series of thought. <a href="thoughts/drops-la-seta">Part 1</a></p>
         <p>I mentioned that Sunday that I was starting to use an app called Drops. I originally tested it on Spanish
         and Esperanto, but I ended up mostly sticking to expanding my Vietnamese vocabulary.</p>

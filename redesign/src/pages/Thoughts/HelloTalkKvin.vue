@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Hello Talk</b>: Fifth Update (Wed Nov 28 '18)</p>
+        <p><b>Hello Talk</b>: Fifth Update (Nov '18)</p>
         <p>Okay so it's been another two days of using Hello Talk, and I still love it.
         I no longer reach out to people, because I don't have enough time to continue a conversation with everyone
         that's talked to me, but I still reply to people who reach out to me. Until yesterday I was mostly communicating

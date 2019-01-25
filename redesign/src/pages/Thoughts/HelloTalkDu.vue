@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Hello Talk</b>: Second Update (Sun Nov 25 '18)</p>
+        <p><b>Hello Talk</b>: Second Update (Nov '18)</p>
         <p>I'm not sure if it's okay to call this the second update, since I don't think you can call the first post an
         update.. but I'm sticking with it because I've already named this file HelloTalkDu.vue and I don't want
         to rename it to HelloTalkUnu.vue, because I'd presume that HelloTalk.vue already means HelloTalkUnu.vue</p>

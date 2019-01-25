@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Hello Talk</b>: Fourth Update (Mon Nov 26 '18)</p>
+        <p><b>Hello Talk</b>: Fourth Update (Nov '18)</p>
         <p>Okay cool I've actually started speaking to some Esperantistoj.</p>
         <p>Okay I'm also getting the left-handed English speaking teen girls aged 12 to 17 for a Typing User Study ad
         on facebook. I guess everyone in Worcester is getting these. I wonder if I should bring up the subject with someone.

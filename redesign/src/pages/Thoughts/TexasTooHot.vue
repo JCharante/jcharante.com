@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Texas: too fucking hot</b> (Sat Nov 24 '18)</p>
+        <p><b>Texas: too fucking hot</b> (Nov '18)</p>
         <p>I was in San Antonio during my school's October break, and on my final "full" day there, I felt like I was dying.</p>
         <p>You know how indoor pools in hotels are generally very humid? It felt like I was in a full suit and tie at an indoor
         pool whenever I stepped foot outside. I looked into it and it looks like that day wasn't that bad in particular,

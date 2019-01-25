@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Hello Talk</b>: First Impressions (Sun Nov 25 '18)</p>
+        <p><b>Hello Talk</b>: First Impressions (Nov '18)</p>
         <p>So I've just started with Hello Talk, and right off the bat I'm turned off by the sign up process.
         It asks for my Region and Native Language. Well, I'm bilingual. I'd actually say my English is probably
         better than my Spanish, but I have to choose one. Okay fine, I guess I'd choose US & English, but then it says

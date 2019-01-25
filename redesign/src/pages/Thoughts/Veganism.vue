@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Thoughts on "Veganism", PETA, and the IVA</b> (Fri Nov 23 '18)</p>
+        <p><b>Thoughts on "Veganism", PETA, and the IVA</b> (Nov '18)</p>
         <p>So this will probably be a work in progress for a while, but I'll keep adding to it unless I change my mind,
         in which case I'll create a new page to discuss my new thoughts on it and still keep this one around.</p>
         <p>So let me just talk a bit about, I don't want to be cheesy and call it a "journey" but I'm a cheesy person

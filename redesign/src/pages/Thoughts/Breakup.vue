@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>How to break up</b> with your homework partner (Sat Nov 24 '18)</p>
+        <p><b>How to break up</b> with your homework partner (Nov '18)</p>
         <p>So recently I found that I needed to break up with my homework partner for a class I was in.
         If I'm being completely candid, the relationship started because the professor was offering a 3% bonus on
         HW grades for those who had a homework partner, maybe because then the TAs would have less work to grade.</p>

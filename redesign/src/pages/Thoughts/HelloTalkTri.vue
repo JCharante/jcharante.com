@@ -2,7 +2,7 @@
   <q-page>
     <SimplePage>
       <div>
-        <p><b>Hello Talk</b>: Third Update (Sun Nov 25 '18)</p>
+        <p><b>Hello Talk</b>: Third Update (Nov '18)</p>
         <p>So something that's bothering me, and it's not specific to Hello Talk, Drops "suffers" from it too, is that
         when I'm trying to get stuff done on my desktop I have to look down at my phone, and I wish I could just open/access
         the apps online. I'd a pain to pick up my phone and type stuff instead of writing it from my keyboard. Although
