@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="layout-padding" style="max-width: 90vw; width: 800px;">
-      <div class="q-title">Mia tagon</div>
+      <div class="q-title">Mia tago</div>
       <div class="q-subheading">190110</div>
       <br>
       <p>Saluton! Mi volis skribi <q-chip square>hieraux</q-chip> sed mi ne <q-chip square>finu</q-chip> mian <q-chip square>hejmtasko gxis</q-chip> hodiaux. (Mi ne povas <q-chip square>kredi</q-chip> ke mi <q-chip square>forgesis</q-chip> gxis...)</p>

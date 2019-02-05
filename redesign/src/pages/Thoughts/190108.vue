@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="layout-padding" style="max-width: 90vw; width: 800px;">
-      <div class="q-title">Mia tagon</div>
+      <div class="q-title">Mia tago</div>
       <div class="q-subheading">190108</div>
       <br>
       <p>Saluton al vi! Mi devas skribi do mi povas skribi pli bone..</p>

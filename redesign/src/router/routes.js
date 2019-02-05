@@ -55,10 +55,6 @@ const routes = [
             component: () => import('pages/Thoughts/TexasTooHot.vue')
           },
           {
-            path: 'breakup',
-            component: () => import('pages/Thoughts/Breakup.vue')
-          },
-          {
             path: 'hello-talk',
             component: () => import('pages/Thoughts/HelloTalk.vue')
           },
@@ -79,7 +75,8 @@ const routes = [
             component: () => import('pages/Thoughts/HelloTalkKvin.vue')
           },
           { path: '190108', component: () => import('pages/Thoughts/190108.vue') },
-          { path: '190110', component: () => import('pages/Thoughts/190110.vue') }
+          { path: '190110', component: () => import('pages/Thoughts/190110.vue') },
+          { path: '190205', component: () => import('pages/Thoughts/190205.vue') }
         ]
       },
       {
