@@ -11,3 +11,9 @@
     </div>
   </q-page>
 </template>
+
+<style scoped>
+  p {
+    line-height: 1.4285714285714286em
+  }
+</style>
