@@ -1,7 +1,7 @@
 {
   "name": "redesign",
   "version": "1.0.0",
-  "description": "Source code for jcharante.com",
+  "description": "The personal website of John/Jyan Zarate",
   "productName": "jcharante.com",
   "cordovaId": "org.cordova.quasar.app",
   "author": "John Zarate",
