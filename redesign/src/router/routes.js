@@ -79,7 +79,8 @@ const routes = [
           { path: '190205', component: () => import('pages/Thoughts/190205.vue') },
           { path: '190206', component: () => import('pages/Thoughts/b190206.vue') },
           { path: '190207', component: () => import('pages/Thoughts/b190207.vue') },
-          { path: '190208', component: () => import('pages/Thoughts/b190208.vue') }
+          { path: '190208', component: () => import('pages/Thoughts/b190208.vue') },
+          { path: '190209', component: () => import('pages/Thoughts/b190209.vue') }
         ]
       },
       {

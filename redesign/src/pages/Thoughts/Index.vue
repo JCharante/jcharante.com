@@ -7,6 +7,7 @@
           and I'm always open to having my mind changed. So feel free to email me with comments.</p>
         <p>(note: list elements without hyperlinks are still incomplete and may be a future topic I'm interested in writing about)</p>
         <ul>
+          <li><router-link to="thoughts/190209">190209</router-link> (Feb '19)</li>
           <li><router-link to="thoughts/190208">190208</router-link> (Feb '19)</li>
           <li><router-link to="thoughts/190207">190207</router-link> (Feb '19)</li>
           <li><router-link to="thoughts/190206">190206</router-link> (Feb '19)</li>
