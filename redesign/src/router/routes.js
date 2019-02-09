@@ -74,9 +74,9 @@ const routes = [
             path: 'hello-talk-kvin',
             component: () => import('pages/Thoughts/HelloTalkKvin.vue')
           },
-          { path: '190108', component: () => import('pages/Thoughts/190108.vue') },
-          { path: '190110', component: () => import('pages/Thoughts/190110.vue') },
-          { path: '190205', component: () => import('pages/Thoughts/190205.vue') },
+          { path: '190108', component: () => import('pages/Thoughts/b190108.vue') },
+          { path: '190110', component: () => import('pages/Thoughts/b190110.vue') },
+          { path: '190205', component: () => import('pages/Thoughts/b190205.vue') },
           { path: '190206', component: () => import('pages/Thoughts/b190206.vue') },
           { path: '190207', component: () => import('pages/Thoughts/b190207.vue') },
           { path: '190208', component: () => import('pages/Thoughts/b190208.vue') },
