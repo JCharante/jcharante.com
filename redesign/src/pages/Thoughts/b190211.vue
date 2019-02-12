@@ -10,6 +10,9 @@
       <p>Nun mi laboras gxis vespermangxo!</p>
       <hr>
       <p>Do mi havis rekontigxon je 6:30 en la mateno, kaj nun mi havas renkontigxojn cxi tio vesperon je 4:30, 6:00, kaj 7:00! Miru al mi, havas multajn rekontigxojn kaj fekojn (aux ajxojn se vi ne parolas la anglan).</p>
+      <p>Bone, mi estas finita kun la renkontigxo de 4:30, nun en malpluraj minutoj mi iros mangxi.</p>
+      <hr>
+      <p>Do mi estas tro laca, do mi nur gajnis kvin niveloj hodiaux (<a href="https://static.jcharante.com/blog/esperanto-tree-190211-desktop.png">miru</a>).</p>
     </div>
   </q-page>
 </template>
